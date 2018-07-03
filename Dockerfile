@@ -21,9 +21,6 @@ RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-di
 # enable iconv
 RUN docker-php-ext-install -j$(nproc) iconv
 
-# enable mcrypt
-RUN docker-php-ext-install -j$(nproc) mcrypt
-
 # enable imagick
 RUN docker-php-ext-enable imagick
 

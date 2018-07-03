@@ -10,7 +10,6 @@ PHP 7 docker container with apache
 - pdo_mysql
 - gd
 - iconv
-- mcrypt
 - imagick
 - mbstring
 - zip
