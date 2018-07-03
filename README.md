@@ -5,7 +5,6 @@ PHP 7 docker container with apache
 - rewrite
 - headers
 - expires
-- mysql 
 - mysqli 
 - pdo 
 - pdo_mysql

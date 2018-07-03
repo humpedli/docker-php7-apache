@@ -12,7 +12,7 @@ RUN pecl install imagick-3.4.3
 RUN a2enmod rewrite headers expires
 
 # enable mysql support
-RUN docker-php-ext-install -j$(nproc) mysql mysqli pdo pdo_mysql
+RUN docker-php-ext-install -j$(nproc) mysqli pdo pdo_mysql
 
 # enable gd
 RUN docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/  &&  \
